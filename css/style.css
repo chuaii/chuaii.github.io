@@ -787,11 +787,11 @@ img{
 
 ***/
 
-.card-resume{
+.card-education{
 	padding: 50px 50px;
 }
 
-.card-resume .title {
+.card-education .title {
     font-size: 22px;
     font-weight: 500;
     color: #222;
@@ -801,18 +801,18 @@ img{
     margin-top: -9px;
 }
 
-.card-resume .timeline-column{
+.card-education .timeline-column{
 	position:relative;
 	margin-bottom: 40px;
 }
 
-.card-resume .timeline-column .inner{
+.card-education .timeline-column .inner{
 	position:relative;
 	padding-left: 13px;
 	padding-bottom:2px;
 }
 
-.card-resume .timeline-column .inner:before{
+.card-education .timeline-column .inner:before{
 	content:'';
 	position:absolute;
 	left: 12px;
@@ -821,13 +821,13 @@ img{
 	bottom: 0;
 }
 
-.card-resume .timeline-column .col-header{
+.card-education .timeline-column .col-header{
 	position:relative;
 	padding-left: 22px;
 	margin-bottom: 5px;
 }
 
-.card-resume .timeline-column .col-header h2{
+.card-education .timeline-column .col-header h2{
 	position:relative;
 	font-size: 18px;
 	color: #222;
@@ -836,28 +836,28 @@ img{
 	line-height:42px;
 }
 
-.dark-layout .card-resume .timeline-column .col-header h2{
+.dark-layout .card-education .timeline-column .col-header h2{
 	color:#ffffff;
 }
 
-.card-resume .timeline-column .col-header .icon-box{
+.card-education .timeline-column .col-header .icon-box{
 	position:absolute;
 	left: -26px;
 	top: -4px;
 }
 
-.card-resume .timeline-column .col-header .icon-box .icon-inner{
+.card-education .timeline-column .col-header .icon-box .icon-inner{
 	position:relative;
 	width:52px;
 	height:52px;	
 }
 
-.dark-layout .card-resume .timeline-column .col-header .icon-box .icon{
+.dark-layout .card-education .timeline-column .col-header .icon-box .icon{
 	color:#1e1e1e;	
 }
 
 
-.card-resume .timeline-column .col-header .icon-box .icon{
+.card-education .timeline-column .col-header .icon-box .icon{
 	position:relative;
 	display:block;
 	width:52px;
@@ -869,21 +869,21 @@ img{
 	z-index:1;
 }
 
-.card-resume .timeline-column .timeline-block{
+.card-education .timeline-column .timeline-block{
 	position:relative;
 	margin-bottom: 28px;
 }
 
-.card-resume .timeline-column .timeline-block:last-child{
+.card-education .timeline-column .timeline-block:last-child{
 	margin-bottom:0px;	
 }
 
-.card-resume .timeline-column .timeline-block .inner-box{
+.card-education .timeline-column .timeline-block .inner-box{
 	position:relative;
 	padding-left:30px;
 }
 
-.card-resume .timeline-column .timeline-block .date{
+.card-education .timeline-column .timeline-block .date{
 	position:relative;
 	display:inline-block;
 	margin-bottom: 9px;
@@ -894,11 +894,11 @@ img{
 	font-family: 'Poppins', sans-serif;
 }
 
-.card-resume .timeline-column .timeline-block .date span {
+.card-education .timeline-column .timeline-block .date span {
 	color: #9147ff;
 }
 
-.card-resume .timeline-column .timeline-block h4{
+.card-education .timeline-column .timeline-block h4{
 	position: relative;
 	font-size:16px;
 	color:#333333;
@@ -906,7 +906,7 @@ img{
 	margin-bottom: 5px;
 }
 
-.card-resume .timeline-column .timeline-block h4:before{
+.card-education .timeline-column .timeline-block h4:before{
 	content:'';
 	position:absolute;
 	left: -37px;
@@ -918,7 +918,7 @@ img{
 	background:  #fff;
 }
 
-.card-resume .timeline-column .timeline-block .text{
+.card-education .timeline-column .timeline-block .text{
 	font-size:14px;
 }
 
@@ -1846,23 +1846,23 @@ img{
     color: rgba(255, 255, 255, 0.60);
 }
 
-.dark-version .card-resume .title {
+.dark-version .card-education .title {
     color: #fff;
 }
 
-.dark-version .card-resume .timeline-column .col-header h2 {
+.dark-version .card-education .timeline-column .col-header h2 {
     color:  #fff;
 }
 
-.dark-version .card-resume .timeline-column .timeline-block h4 {
+.dark-version .card-education .timeline-column .timeline-block h4 {
     color: #fff;
 }
 
-.dark-version .card-resume .timeline-column .timeline-block .text {
+.dark-version .card-education .timeline-column .timeline-block .text {
     color: rgba(255, 255, 255, 0.60);
 }
 
-.dark-version .card-resume .timeline-column .timeline-block .date {
+.dark-version .card-education .timeline-column .timeline-block .date {
     color:  #fff;
 }
 
@@ -1934,3 +1934,4 @@ img{
     opacity: 1 !important;
     transform: translateX(10px);
 }
+

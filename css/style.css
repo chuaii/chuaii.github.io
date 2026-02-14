@@ -1962,6 +1962,10 @@ img{
 .card-experience .timeline-column .timeline-block h4 { position: relative; font-size:16px; color:#333333; font-weight: 500; margin-bottom: 5px; }
 .card-experience .timeline-column .timeline-block h4:before { content:''; position:absolute; left: -37px; top:4px; width: 13px; height: 13px; border: 2px solid #9147ff; border-radius:50%; background: #fff; }
 .card-experience .timeline-column .timeline-block .text { font-size:14px; }
+.card-experience .timeline-column .timeline-block .text .exp-bullets { list-style: disc; padding-left: 20px; margin: 8px 0 0 0; }
+.card-experience .timeline-column .timeline-block .text .exp-bullets li { margin-bottom: 6px; }
+.card-experience .timeline-column .timeline-block .text .exp-bullets ul { list-style: circle; padding-left: 22px; margin: 4px 0 6px 0; }
+.card-experience .timeline-column .timeline-block .text .exp-bullets ul ul { list-style: square; padding-left: 20px; }
 
 
 /*** 

@@ -54,12 +54,9 @@
                             <li class="current"><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#education">Education</a></li>
-                            <!-- [预留] 取消注释以启用对应导航项 -->
-                            <!-- <li><a href="#experience">Experience</a></li> -->
-                            <!-- <li><a href="#services">Services</a></li> -->
+                            <li><a href="#experience">Experience</a></li>
                             <li><a href="#project">Projects</a></li>
-                            <!-- <li><a href="#awards">Awards</a></li> -->
-                            <!-- <li><a href="#publications">Publications</a></li> -->
+                            <li><a href="#publications">Publications</a></li>
                             <!-- <li><a href="#blog">Blog</a></li> -->
                             <!-- <li><a href="#interests">Interests</a></li> -->
                             <li><a href="#contact">Contact</a></li>
@@ -108,12 +105,9 @@
                                 <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
                                 <li><a href="#about"><i class="flaticon-social"></i>About</a></li>
                                 <li><a href="#education"><i class="flaticon-curriculum"></i>Education</a></li>
-                                <!-- [预留导航] 取消注释以启用对应导航项 -->
-                                <!-- <li><a href="#experience"><i class="flaticon-case"></i>Experience</a></li> -->
-                                <!-- <li><a href="#services"><i class="flaticon-layers-1"></i>Services</a></li> -->
+                                <li><a href="#experience"><i class="flaticon-case"></i>Experience</a></li>
                                 <li><a href="#project"><i class="flaticon-tools"></i>Projects</a></li>
-                                <!-- <li><a href="#awards"><i class="flaticon-curriculum"></i>Awards</a></li> -->
-                                <!-- <li><a href="#publications"><i class="flaticon-blog"></i>Publications</a></li> -->
+                                <li><a href="#publications"><i class="flaticon-blog"></i>Publications</a></li>
                                 <!-- <li><a href="#blog"><i class="flaticon-blog"></i>Blog</a></li> -->
                                 <!-- <li><a href="#interests"><i class="flaticon-photo-camera"></i>Interests</a></li> -->
                                 <li><a href="#contact"><i class="flaticon-send-mail"></i>Contact</a></li>
@@ -277,11 +271,7 @@
                         </div>
                         <!-- end item -->
 
-                        <!-- ============================================================ -->
-                        <!-- [预留功能] 工作经历 - 取消注释并填入实际内容即可启用 -->
-                        <!-- 同时需要取消注释对应的导航栏链接 -->
-                        <!-- ============================================================ -->
-                        <!--
+                        <!-- Work Experience -->
                         <div class="card-experience card-item" id="experience" style="background-image:url(images/background/2.jpg)">
                             <div class="card-inner">
                                 <h4 class="title">Work Experience</h4>
@@ -294,14 +284,24 @@
                                             </div>
                                             <div class="timeline-block">
                                                 <div class="inner-box">
-                                                    <h4>职位名称 (Job Title)</h4>
-                                                    <div class="date"><span>2025-Present</span> / 公司名称 (Company Name)</div>
-                                                    <div class="text">工作职责描述 (Job responsibilities description)</div>
+                                                    <h4>Research Assistant Intern</h4>
+                                                    <div class="date"><span>Sep 2025 - Dec 2025</span> / Fuzhou University</div>
+                                                    <div class="text">Developed intelligent car and robotic arm systems on Huawei Atlas 200I DK A2; implemented AI-driven lane keeping, road sign detection, automatic parking; deployed ResNet18/YOLOv5. Streamlined teaching documents and experiment protocols.</div>
                                                 </div>
                                                 <div class="inner-box">
-                                                    <h4>职位名称 (Job Title)</h4>
-                                                    <div class="date"><span>2022-2025</span> / 公司名称 (Company Name)</div>
-                                                    <div class="text">工作职责描述 (Job responsibilities description)</div>
+                                                    <h4>Research Assistant (Seasonal)</h4>
+                                                    <div class="date"><span>Sep 2023 - Aug 2025</span> / Fuzhou University</div>
+                                                    <div class="text">Conducted research on AI-based video analysis and motion trajectory reconstruction. Published on trajectory recovery and developed a spatiotemporal context-aware model (TSCD) for occluded object detection. Contributed to open-source code.</div>
+                                                </div>
+                                                <div class="inner-box">
+                                                    <h4>Restaurant Manager</h4>
+                                                    <div class="date"><span>Jan 2024 - Dec 2024</span> / Asian Hot Pot</div>
+                                                    <!-- <div class="text">Oversaw inventory and supply chain; negotiated with suppliers; conducted daily financial reconciliations; managed staff scheduling for smooth operations in Winnipeg, MB.</div> -->
+                                                </div>
+                                                <div class="inner-box">
+                                                    <h4>Application Developer Intern</h4>
+                                                    <div class="date"><span>May 2021 - Aug 2021</span> / Fuzhou University</div>
+                                                    <!-- <div class="text">???</div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -309,7 +309,6 @@
                                 </div>
                             </div>
                         </div>
-                        -->
                         <!-- end item -->
 
                         <!-- ============================================================ -->
@@ -385,6 +384,22 @@
                                             <div class="caption-title">
                                                 <h3><a href="#">Club Membership Management</a></h3>
                                                 <span>Golf Club</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/hotpot.jpg" alt="Hotpot Ordering Advisor">
+                                                <div class="overlay">
+                                                    <a href="https://github.com/chuaii/Hotpot-Concierge-RAG">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="https://github.com/chuaii/Hotpot-Concierge-RAG" target="_blank" rel="noopener">Hotpot Ordering Advisor</a></h3>
+                                                <span>RAG + multi-turn concierge with Gemini, LangGraph &amp; FastAPI. Deployable to Cloud Run.</span>
                                             </div>
                                         </div>
                                     </div>
@@ -532,35 +547,39 @@
                         -->
                         <!-- end item -->
 
-                        <!-- ============================================================ -->
-                        <!-- [预留功能] 发表论文与研究 - 取消注释并填入实际内容即可启用 -->
-                        <!-- 同时需要取消注释对应的导航栏链接 -->
-                        <!-- ============================================================ -->
-                        <!--
+                        <!-- Publications & Research -->
                         <div class="card-publications card-item" id="publications" style="background-image:url(images/background/2.jpg)">
                             <div class="card-inner">
                                 <h4 class="title">Publications & Research</h4>
                                 <div class="news-block">
                                     <div class="inner-box">
                                         <div class="lower-content">
-                                            <h4>论文标题 (Paper Title)</h4>
-                                            <div class="post-meta">期刊/会议名称 - <span>年份 (Year)</span></div>
-                                            <p>论文简要描述 (Brief description of the paper)</p>
+                                            <h4><a href="https://ieeexplore.ieee.org/abstract/document/11210128" target="_blank" rel="noopener">Adaptive Pixel Classification and Equivalent Large Kernels for Lightweight Image Super-Resolution</a></h4>
+                                            <div class="post-meta">IEEE ICME, <span>2025</span></div>
+                                            <p>Lightweight image super-resolution using adaptive pixel classification and equivalent large kernels.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="news-block">
                                     <div class="inner-box">
                                         <div class="lower-content">
-                                            <h4>论文标题 (Paper Title)</h4>
-                                            <div class="post-meta">期刊/会议名称 - <span>年份 (Year)</span></div>
-                                            <p>论文简要描述 (Brief description of the paper)</p>
+                                            <h4><a href="https://ieeexplore.ieee.org/document/11084574" target="_blank" rel="noopener">Task-Specific Spatiotemporal Context-Aware Decoupling for Occluded Video Object Detection</a></h4>
+                                            <div class="post-meta">IEEE ICIP, <span>2025</span></div>
+                                            <p>Task-specific spatiotemporal context-aware decoupling (TSCD) for occluded video object detection, validated on large benchmarks.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="lower-content">
+                                            <h4><a href="https://link.springer.com/chapter/10.1007/978-981-97-8792-0_22" target="_blank" rel="noopener">Motion Trajectory Reconstruction Based on Feature Matching and Gradient Graph Laplacian Regularizer</a></h4>
+                                            <div class="post-meta">PRCV, <span>2024</span></div>
+                                            <p>Trajectory reconstruction enhancing accuracy in noisy and incomplete datasets via feature matching and gradient graph Laplacian regularizer.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        -->
                         <!-- end item -->
 
                         <!-- ============================================================ -->

@@ -26,6 +26,18 @@ font-family: 'Work Sans', sans-serif;*/
 
 @import url('font-awesome.css');
 @import url('flaticon.css');
+
+/* ============================================================
+   [重要] 以下 CSS 文件在 css/ 目录中缺失，会导致 404 错误。
+   如需完整功能（动画、轮播、弹窗等），请从对应库的官网下载并放入 css/ 目录：
+   - animate.css       → https://animate.style/ (WOW.js 动画依赖)
+   - owl.css           → Owl Carousel 样式
+   - jquery-ui.css     → jQuery UI 样式
+   - jquery.fancybox.min.css → Fancybox 灯箱样式
+   - jquery.mCustomScrollbar.min.css → 自定义滚动条样式
+   - custom-animate.css → 自定义动画（模板自带）
+   - multi-scroll.css   → 多段滚动样式
+   ============================================================ */
 @import url('animate.css');
 @import url('owl.css');
 @import url('jquery-ui.css');
@@ -1909,6 +1921,115 @@ img{
     left: 0;
     top: 0;
     z-index: -1;
+}
+
+
+/*** 
+
+====================================================================
+	Work Experience Section (预留模块)
+====================================================================
+
+***/
+
+.card-experience {
+	padding: 50px 50px;
+}
+
+.card-experience .title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -9px;
+}
+
+/* 复用 .card-education 的时间线样式 */
+.card-experience .timeline-column { position: relative; margin-bottom: 40px; }
+.card-experience .timeline-column .inner { position: relative; padding-left: 13px; padding-bottom: 2px; }
+.card-experience .timeline-column .inner:before { content:''; position:absolute; left: 12px; top: 60px; border-left:1px solid #d0d0d0; bottom: 0; }
+.card-experience .timeline-column .col-header { position:relative; padding-left: 22px; margin-bottom: 5px; }
+.card-experience .timeline-column .col-header h2 { font-size: 18px; color: #222; font-weight: 500; text-transform:capitalize; line-height:42px; }
+.card-experience .timeline-column .col-header .icon-box { position:absolute; left: -26px; top: -4px; }
+.card-experience .timeline-column .col-header .icon-box .icon-inner { position:relative; width:52px; height:52px; }
+.card-experience .timeline-column .col-header .icon-box .icon { position:relative; display:block; width:52px; height:52px; text-align:center; color:#9147ff; font-size:24px; line-height:52px; z-index:1; }
+.card-experience .timeline-column .timeline-block { position:relative; margin-bottom: 28px; }
+.card-experience .timeline-column .timeline-block .inner-box { position:relative; padding-left:30px; }
+.card-experience .timeline-column .timeline-block .date { position:relative; display:inline-block; margin-bottom: 9px; line-height:24px; font-size:14px; color:#222; font-weight:400; font-family: 'Poppins', sans-serif; }
+.card-experience .timeline-column .timeline-block .date span { color: #9147ff; }
+.card-experience .timeline-column .timeline-block h4 { position: relative; font-size:16px; color:#333333; font-weight: 500; margin-bottom: 5px; }
+.card-experience .timeline-column .timeline-block h4:before { content:''; position:absolute; left: -37px; top:4px; width: 13px; height: 13px; border: 2px solid #9147ff; border-radius:50%; background: #fff; }
+.card-experience .timeline-column .timeline-block .text { font-size:14px; }
+
+
+/*** 
+
+====================================================================
+	Awards Section (预留模块)
+====================================================================
+
+***/
+
+.card-awards {
+	padding: 50px 50px;
+}
+
+.card-awards .title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -9px;
+}
+
+
+/*** 
+
+====================================================================
+	Publications Section (预留模块)
+====================================================================
+
+***/
+
+.card-publications {
+	padding: 50px 50px;
+}
+
+.card-publications .title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -9px;
+}
+
+
+/*** 
+
+====================================================================
+	Interests Section (预留模块)
+====================================================================
+
+***/
+
+.card-interests {
+	padding: 50px 50px;
+}
+
+.card-interests .title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -9px;
 }
 
 

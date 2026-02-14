@@ -117,12 +117,7 @@ function gMap () {
                     lng: mapLng,
                     title: mapTitle
                 });
-                map.addMarker({
-                    icon: iconPath,
-                    lat: 40.700843,         //you can
-                    lng: 40.700843,
-                    title: "New York"
-                });
+                // [已修复] 移除了重复的标记点（原第二个 marker 经纬度值有误）
             }
         });  
     };

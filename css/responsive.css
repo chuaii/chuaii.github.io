@@ -310,7 +310,76 @@
 }
 
 @media only screen and (max-width: 767px){
+	/* 小屏幕下减小各卡片区域的内边距 */
+	.card-about,
+	.card-education,
+	.card-services,
+	.card-projects,
+	.card-blog,
+	.card-contact,
+	.card-experience,
+	.card-awards,
+	.card-publications,
+	.card-interests {
+		padding: 30px 20px;
+	}
 
+	/* 技能圆环在小屏幕下适当缩小间距 */
+	.skill-block {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.skill-block .inner-box {
+		display: block;
+	}
+
+	/* 项目卡片在小屏幕下单列显示 */
+	.projects-block {
+		margin-bottom: 20px;
+	}
+
+	/* 社交图标在小屏幕下适当缩小 */
+	.social-icon-two li a {
+		height: 38px;
+		width: 38px;
+		line-height: 38px;
+		font-size: 13px;
+	}
+
+	.social-icon-two li {
+		margin-left: 5px;
+	}
+
+	/* 首页标题文字在小屏幕下缩小 */
+	.card-home .author h3 {
+		font-size: 22px;
+	}
+
+	.card-home .text {
+		font-size: 15px;
+	}
+
+	/* 时间线左侧间距减小 */
+	.card-education .timeline-column .timeline-block .inner-box {
+		padding-left: 20px;
+	}
+
+	/* 联系人列表在小屏幕下文字缩小 */
+	.list-style-two li {
+		font-size: 13px;
+		margin-bottom: 25px;
+		padding-left: 35px;
+	}
+
+	.list-style-two li .icon {
+		font-size: 24px;
+	}
+
+	/* 地图在小屏幕下高度适配 */
+	.home-google-map .google-map {
+		height: 200px;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -318,8 +387,50 @@
 		top: 0;
 		left: 0;
 	}
-}
 
+	/* 超小屏幕下进一步减小 padding */
+	.card-about,
+	.card-education,
+	.card-services,
+	.card-projects,
+	.card-blog,
+	.card-contact,
+	.card-experience,
+	.card-awards,
+	.card-publications,
+	.card-interests {
+		padding: 20px 15px;
+	}
+
+	/* 各区域标题字号缩小 */
+	.card-about .title,
+	.card-education .title,
+	.card-services .title,
+	.card-projects .title,
+	.card-blog .title,
+	.card-contact .title {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	/* 首页卡片减少上间距 */
+	.card-inner-box .card-home {
+		padding-top: 40px;
+	}
+
+	/* Services 类卡片左侧 padding 减小 */
+	.services-block .inner-box {
+		padding-left: 70px;
+		min-height: 75px;
+	}
+
+	.services-block .icon-box {
+		height: 55px;
+		width: 55px;
+		line-height: 53px;
+		font-size: 26px;
+	}
+}
 
 
 

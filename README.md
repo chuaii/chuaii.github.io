@@ -37,7 +37,7 @@ Here are some helpful guidelines about how to make a beautiful resume or somethi
 
 ### *1. Create a new repository*
 At the beginning, you need to create a GitHub account on the Internet. After you log in, you will see a “+” sign near your profile photo on the top right of screen, click it and there is a "*New repository*" where is the place to create your own GitHub Page. Next, you are required to enter a repository name, which the repository name must begin with exactly your username so that it can automatically generate a GitHub Pages site. Otherwise, it cannot build an online site from your GitHub repository. In other words, you just fill with <u>*username.github.io*</u> there to ensure your resume can appear online successfully. I show you a demo below and I hope it can help you do this well.   
-![Repository](https://github.com/ChenHuayi131/ChenHuayi131.github.io/blob/main/images/Create%20repository.gif)  
+![Repository](images/readme/Create%20repository.gif)  
 
 ### *2. Write resume in Markdown*
 First of all, before you start to make a home page, you need to prepare your resume code probably written by Markdown language. According to Etter, "Markdown is the most widely used lightweight markup language by many people who may work in the IT industry all over the world. If you write your resume in Markdown, you will enjoy the benefits it brings to you, such as the cleanest syntax, limited set of features, and no defined standard." To be specific, Markdown makes everything become simpler and easier to get started. Markdown has its flavors, especially we focus on one of them which is GitHub Flavored Markdown. Lastly, I provide you with some helpful Markdown tutorials on *Resources* section, including some commonly used syntax.
@@ -53,7 +53,7 @@ Etter mentions, "static websites have some excellent performances, such as speed
 ```
 title: yourname's Resume
 ```
-![Rename title](https://github.com/ChenHuayi131/ChenHuayi131.github.io/blob/main/images/Rename%20title.gif)  
+![Rename title](images/readme/Rename%20title.gif)  
 After a few seconds, you will see fantastic appearance of your resume on <u> https://**username**.github.io</u>.  
 
 ### Resume Demo
